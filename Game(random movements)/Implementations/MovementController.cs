@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Numerics;
 
-namespace ConsoleGame
+namespace Mini_Games.ConsoleGame
 {
     class MovementController : IUpdatable
     {

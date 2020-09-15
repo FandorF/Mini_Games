@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 
-namespace ConsoleGame
+namespace Mini_Games.ConsoleGame
 {
     class Program
     {

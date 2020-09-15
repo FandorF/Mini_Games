@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Numerics;
 using System.Text;
 
-namespace ConsoleGame
+namespace Mini_Games.ConsoleGame
 {
     class Player : IPlayer
     {

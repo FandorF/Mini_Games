@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mini_Games.Game.Models
+namespace Mini_Games.ConsoleGame
 {
-    class Car : Vehicle
+    interface IUpdatable
     {
+        void Update();
     }
 }

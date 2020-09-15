@@ -2,15 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mini_Games.Game
+namespace Mini_Games.ConsoleGame
 {
-    interface IAliveEntity
+    interface IHp
     {
         int Hp { get; }
-
         bool Alive { get; }
-
-        void Damage();
-        
+        void TakeDamage(int damage);
     }
 }

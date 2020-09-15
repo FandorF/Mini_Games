@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Mini_Games.Game
+namespace Mini_Games.ConsoleGame
 {
     interface IMap
     {
-        int Width { get; set; }
-        int Height { get; set; }
+        int Width { get; }
+        int Height { get; }
     }
 }

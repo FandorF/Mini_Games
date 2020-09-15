@@ -6,15 +6,10 @@ namespace Mini_Games.CursorGame
     {
         private readonly List<IUpdatable> _updatables;
 
-        public UpdateMediator(params IUpdatable[] updatables)
+        public UpdateMediator(List<IUpdatable> updatables)
         {
-            _updatables = new List<IUpdatable>(updatables);
-            //_updatables.AddRange(updatables);
+            _updatables = updatables;
         }
-        //public UpdateMediator(List<IUpdatable> updatables)
-        //{
-        //    _updatables.AddRange(updatables);
-        //}
 
         public void Update()
         {
